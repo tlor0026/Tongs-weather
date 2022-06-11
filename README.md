@@ -26,3 +26,4 @@ As always our boot camp module is a great deal of help -https://umn.bootcampcont
 W3schools(https://www.w3schools.com/) has been a key part in helping me understand what syntax works best and how it works in my Script.
 jQuery https://jquery.com/ is what i used to understand how to make things work.
 Mdn web docs https://developer.mozilla.org/en-US/docs/Learn is always awesome in helping me plan and work though tough situations.
+Open Weather API https://openweathermap.org/api/one-call-api was great for providing me with a Key to finish this work! They had great documentation!
