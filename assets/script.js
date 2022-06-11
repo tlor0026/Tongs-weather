@@ -53,7 +53,7 @@ function getData(event) {
         invalidInput();
         return;
     }
-    var requestUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=5911de58d825147b5fa891cd55dfb5c0&units=metric`;
+    var requestUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=c4fae18c7ffb537aed4bbf6ecc19f509&units=metric`;
     fetch(requestUrl)
     .then(function (response) {
         return response.json();
@@ -62,7 +62,7 @@ function getData(event) {
             if(data.length) {
                 var lat = data[0].lat;
                 var lon = data[0].lon;
-                requestUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=5911de58d825147b5fa891cd55dfb5c0&units=metric`;
+                requestUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=c4fae18c7ffb537aed4bbf6ecc19f509&units=metric`;
                 fetch(requestUrl)
                 .then(function (response) {
                     return response.json();
